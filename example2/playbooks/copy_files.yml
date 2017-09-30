@@ -1,0 +1,6 @@
+---
+- hosts: local
+  tasks:
+    - name: un simple test
+      shell: echo "c'est un test" > "{{ file_dir }}/{{ file_name }}"
+
